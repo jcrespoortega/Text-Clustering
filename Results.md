@@ -2,28 +2,15 @@
 
 Finally I present the performance of the differents approach, in order to measure its accuracy I will use Adjusted Rand Score metric.
 
-\documentclass[10pt]{article}
 
-\begin{document}
-\begin{table}[htbp]
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-Fase&Terms&Unique Term& Adjusted Rand Score\\
-\hline \hline
-Fase 1&15659&3334&0.0140480591497\\ \hline
-Fase 2&8425&3167& 0.722117202268\\ \hline
-Fase 3&8425&2411& 0.722117202268\\ \hline
-Fase 4&8696&2446&0.650602409639\\ \hline
-Fase 5&3300&1631&0.722117202268431\\ \hline
-Fase 6&656&189&0.914285714286\\ \hline
-\end{tabular}
-\caption{Comparación}
-\label{tabla:sencilla}
-\end{center}
-\end{table}
+|Fase | Adjusted Rand Score|
+|Fase 1|0.0140480591497|
+|Fase 2|0.722117202268|
+|Fase 3| 0.722117202268|
+|Fase 4|0.650602409639|
+|Fase 5|0.722117202268431|
+|Fase 6 | 0.914285714286|
 
-\end{document}
 
 
 Lemmatization proccess achieve a result slightly worse result that Steamming the differences beetwen this tecniques are that stemming is 
