@@ -7,7 +7,7 @@ Finally I present the performance of the differents approach, in order to measur
 \begin{document}
 \begin{table}[htbp]
 \begin{center}
-\begin{tabular}{|l|l|l|l|}
+\begin{tabular}{|c|c|c|c|}
 \hline
 Fase&Terms&Unique Term& Adjusted Rand Score\\
 \hline \hline
