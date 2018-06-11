@@ -2,6 +2,7 @@
 
 Finally I present the performance of the differents approach, in order to measure its accuracy I will use Adjusted Rand Score metric.
 
+\documentclass[10pt]{article}
 
 \begin{table}[htbp]
 \begin{center}
@@ -20,6 +21,9 @@ Fase 6&656&189&0.914285714286\\ \hline
 \label{tabla:sencilla}
 \end{center}
 \end{table}
+
+\end{document}
+
 
 Lemmatization proccess achieve a result slightly worse result that Steamming the differences beetwen this tecniques are that stemming is 
 faster but it dose't take into account the context only works with the words, however it achve a better results.
