@@ -4,6 +4,7 @@ Finally I present the performance of the differents approach, in order to measur
 
 \documentclass[10pt]{article}
 
+\begin{document}
 \begin{table}[htbp]
 \begin{center}
 \begin{tabular}{|l|l|l|l|}
