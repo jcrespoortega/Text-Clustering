@@ -1,13 +1,25 @@
-#Results
+# Results
 
-Finally I present the performance of the differents approach, in order to measure its performace I will use Adjusted Rand Score metric.
+Finally I present the performance of the differents approach, in order to measure its accuracy I will use Adjusted Rand Score metric.
 
-Fase Terms Unique Term  Adjusted Rand Score 
-Fase 3 8425 2411 0.722117202268 
-Fase 4 8696 2446 0.650602409639 
-Fase 5 3300 1631 0.722117202268431
-Fase 6 656 189 0.914285714286
 
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+\hline
+Fase&Terms&Unique Term& Adjusted Rand Score\\
+\hline \hline
+Fase 1&15659&3334&0.0140480591497\\ \hline
+Fase 2&8425&3167& 0.722117202268\\ \hline
+Fase 3&8425&2411& 0.722117202268\\ \hline
+Fase 4&8696&2446&0.650602409639\\ \hline
+Fase 5&3300&1631&0.722117202268431\\ \hline
+Fase 6&656&189&0.914285714286\\ \hline
+\end{tabular}
+\caption{Comparación}
+\label{tabla:sencilla}
+\end{center}
+\end{table}
 
 Lemmatization proccess achieve a result slightly worse result that Steamming the differences beetwen this tecniques are that stemming is 
 faster but it dose't take into account the context only works with the words, however it achve a better results.
