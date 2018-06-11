@@ -3,13 +3,14 @@
 Finally I present the performance of the differents approach, in order to measure its accuracy I will use Adjusted Rand Score metric.
 
 
-|Fase | Adjusted Rand Score|
-|Fase 1|0.0140480591497|
-|Fase 2|0.722117202268|
-|Fase 3| 0.722117202268|
-|Fase 4|0.650602409639|
-|Fase 5|0.722117202268431|
-|Fase 6 | 0.914285714286|
+|Fase      | Adjusted Rand Score|
+| ---      | ---                |
+|Fase 1    |0.0140480591497     |
+|Fase 2    |0.722117202268      |
+|Fase 3    | 0.722117202268     |
+|Fase 4    |0.650602409639      |
+|Fase 5    |0.722117202268431   |
+|Fase 6    | 0.914285714286     |
 
 
 
