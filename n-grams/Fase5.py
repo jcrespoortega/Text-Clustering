@@ -49,28 +49,9 @@ def word_grams(words):
             s.append(' '.join(str(i) for i in ngram))
     return s
 
-filenames = ["./corpus/Mini-Merkel given crucial CDU job as chancellor looks to future _ World news _ The Guardin.html",
-             "./corpus/All 66 on board plane that crashed in Iranian mountains 'believed '.html",
-             "./corpus/Angela Merkel appears to anoint successor with promotion  'mini-Merkel'.html",
-             "./corpus/Annegret Kramp-Karrenbauer candidata de Merkel a sucederla como presidenta  CDU.html",
-             "./corpus/As Merkel calls on Pope Francis, is a partnership in  works_.html",
-            "./corpus/Catalan MP and leading independence activist flees country to avoid facing trial Madrid _ The Independent.html",
-             "./corpus/Catalan Politician Leaves for Switzerland Days Before Court Date -  New York Times.html",
-             "./corpus/Crisis in Catalonia_ Pro-Catalan independence politician flees to Switzerland to avoid court date _  English _ EL PAÍS.html",
-             "./corpus/El Vaticano reactiva la comisión sobre abusos sexuales ante críticas  Español.html",
-            "./corpus/Hallan los restos del avión siniestrado en las montañas de Irán _ Internacionl.html",
-             "./corpus/Iran Plane Crash Leads to Search-and-Rescue Effort at 14,500 Feet -  New York Times.html",
-            "./corpus/Iran plane crash_ Agonising wait continues for relatives - BBC Nws.html",
-             "./corpus/Iran plane crash_ Search continues for missing Aseman Airlines plane - BBC Nws.html",
-             "./corpus/Mueren 66 personas al estrellarse un avión comercial en Irn.html",
-            "./corpus/Oxfam Haiti scandal_ Suspects 'physically threatened' witnesses - BBC Nws.html",
-             "./corpus/Oxfam Says Workers in Haiti Threatened Witness to Misconduct -  New York Times.html",
-             "./corpus/Oxfam tendrá una comisión independiente para evitar los abuos.html",
-            "./corpus/Oxfam was warned a decade ago about the crisis in sex abuse among world's aid workes.html",
-             "./corpus/Pope Francis wowed the world but, five years on, is in troubled waters _ World news _ he Guardian.html",
-             "./corpus/Reaction to remarks by Angela Merkel and Emmanuel Macron at Bonn climate summit _ Oxfam Internationl.html",
-            "./corpus/The far-left separatists who took Catalonia to the brik.html",
-             "./corpus/Un avión con 66 pasajeros a bordo se estrella en una zona montañosade Irán.html"]
+filenames = [
+
+]
 
 
 if __name__ == "__main__":
