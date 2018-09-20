@@ -1,6 +1,6 @@
 # Results
 
-Finally I present the performance of the differents approach, in order to measure its accuracy I will use Adjusted Rand Score metric.
+Finally I present the performance of the differents approaches, in order to measure its accuracy I will use Adjusted Rand Score metric.
 
 
 |Fase          | Adjusted Rand Score|
@@ -12,8 +12,7 @@ Finally I present the performance of the differents approach, in order to measur
 
 
 
-Lemmatization proccess achieve a result slightly worse result that Steamming the differences beetwen this tecniques are that stemming is 
-faster but it dose't take into account the context only works with the words, however it achve a better results.
+Lemmatization proccess achieve a result slightly worse result than Steamming, the differences beetwen this tecniques are that stemming is faster but it dosen't take into account the context only works with the words, however it achieve better results.
 
 N-grams is a good approach in order to detect share vocabulary, but it has a high computational cost. It is important to compute differents
 n-grams size and frequenties, here an experiment:
@@ -38,7 +37,7 @@ n-grams size and frequenties, here an experiment:
 Named Entities outpreforms the rest of techniques, this is because in this example we are doing a classification for news articles. In 
 ssituations like this only with the response about How? When? Where?.. you can classify those texts, and named entities are the response to these
 questions. The problem is when the response of the questions are the same but we have a different context in texts.
-Both libraries achieves the same ADjusted Rand Score.
+Both libraries achieves the same Adjusted Rand Score.
 
 
 
